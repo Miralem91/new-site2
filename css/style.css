@@ -1,0 +1,209 @@
+/*MOBILE*/
+
+.car-img {
+  width: 100%;
+}
+.text-topbar {
+  color: rgb(121, 121, 121);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.17em;
+}
+
+.article-title {
+  font-size: 31px;
+  line-height: 45px;
+  font-weight: bold;
+}
+p {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.survey-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.survey-btn {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  background-color: #2a4fca;
+  font-size: 32px;
+  font-weight: bold;
+}
+.survey-btn:hover {
+  background-color: #4362c7;
+}
+
+.confirm-btn {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 42px;
+  padding: 15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 120px;
+}
+#content {
+  max-width: 790px;
+}
+.trust-pilot {
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.five-stars-img {
+  margin-right: 10px;
+  width: 40%;
+}
+.trustpilot-logo {
+  width: 30%;
+}
+.stars-mobile-img {
+  width: 45%;
+}
+.underline {
+  text-decoration: underline;
+}
+.trustpilot-mobile-img {
+  width: 30%;
+}
+
+.slick-slider {
+  display: none;
+}
+.trust-desktop {
+  display: none;
+  visibility: hidden;
+}
+.footer-ul {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+.footer-ul li a {
+  font-size: 18px;
+  color: blue;
+}
+
+@media only screen and (min-width: 622px) {
+  p {
+    font-size: 26px;
+  }
+  .article-title {
+    font-size: 49px;
+    margin-bottom: 20px;
+  }
+  .article-subtitle {
+    font-size: 36px;
+  }
+  .survey-title {
+    font-size: 36px;
+  }
+  .survey-btn {
+    margin-bottom: 10px;
+  }
+  .confirm-btn {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 42px;
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 100px;
+  }
+  .trust-desktop{
+      display: block;
+      margin-top: 20px;
+  }
+  .trust-mobile {
+    display: none;
+  }
+
+  .trust-pilot-desktop {
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+  }
+  .tp-desktop {
+    font-size: 18px;
+  }
+  .trust-pilot-desktop img {
+    margin: 10px;
+  }
+  .stars-desktop-img {
+    width: 18%;
+  }
+  .trustpilot-desktop-img {
+    width: 13%;
+  }
+
+  .slick-slider {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slick-div {
+    max-width: 25%;
+  }
+  .slider {
+    max-width: 68%;
+  }
+  .slider-text {
+    font-size: 26px;
+  }
+  .stars-slick-img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .trustpilot-slick-img {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  .slick-text {
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 0.1;
+    font-size: 16px;
+  }
+  .slider-item {
+    max-width: 235px;
+  }
+  .slider-head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider-head img {
+    width: 50%;
+  }
+  .slider-body p {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  .footer p {
+      font-size: 17px;
+  }
+}
